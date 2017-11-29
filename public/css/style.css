@@ -84,14 +84,13 @@ footer {
 }
 
 /* MORE THAN 75 */
-/*body { background-color: skyBlue; }*/
 
 .margin-left-form-label {
 	margin-left: 140px;
 }
 
 /* LESS THAN 75 */
-@media (max-width: 74.9em) { body {background-color: pink;} 
+@media (max-width: 74.9em) { 
 	.margin-left-form-label {
 		margin-left: 115px;
 	}
@@ -102,7 +101,7 @@ footer {
 }
 
 /* LESS THAN 62 */
-@media (max-width: 61.9em) { body {background-color: blue;} 
+@media (max-width: 61.9em) {
 	.margin-left-form-label {
 		margin-left: 85px;
 	}
@@ -113,7 +112,7 @@ footer {
 }
 
 /* LESS THAN 48 */
-@media (max-width: 47.9em) { body {background-color: green;}
+@media (max-width: 47.9em) { 
 	.margin-left-form-label {
 		margin-left: -5px;
 	}
@@ -124,5 +123,5 @@ footer {
 }
 
 /* LESS THAN 34 */
-@media (max-width: 33.9em) { body {background-color: red;} 
+@media (max-width: 33.9em) { 
 }
